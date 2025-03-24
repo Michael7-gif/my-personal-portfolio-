@@ -1,0 +1,200 @@
+*{
+margin: 0;
+padding: 0%;
+
+
+}
+body{
+    /* background-image:url(./image/Awesome\ Kaws\ 4K\ Wallpapers\ -\ WallpaperAccess.jfif), url(./image/Awesome\ Kaws\ 4K\ Wallpapers\ -\ WallpaperAccess.jfif), url(./image/Awesome\ Kaws\ 4K\ Wallpapers\ -\ WallpaperAccess.jfif);
+    background-position: 10% 20%, 50% 50%,90% 80%;
+    background-size: 200px 200px,300px 300px,250px 250px;
+    background-repeat: no-repeat; */
+
+}
+.section{
+
+
+background-size: cover;
+background-position: center;
+/* background-repeat: no-repeat; */
+display: flex;
+align-items: center;
+justify-content: center;
+
+font-size: 24px;
+font-weight: bold;
+}
+   
+#section1{
+    background-image:url(./image/Awesome\ Kaws\ 4K\ Wallpapers\ -\ WallpaperAccess.jfif);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 100px;
+    
+}
+
+#section2{
+    background-image:url(./image/Awesome\ Kaws\ 4K\ Wallpapers\ -\ WallpaperAccess.jfif);   
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 100px;
+    
+}
+
+#section3{
+
+    background-image:url(./image/Awesome\ Kaws\ 4K\ Wallpapers\ -\ WallpaperAccess.jfif);
+    background-image:url(./image/Awesome\ Kaws\ 4K\ Wallpapers\ -\ WallpaperAccess.jfif);   
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+nav,ul,li,a{
+display: flex;
+text-decoration: none;
+justify-content: space-between;
+gap: 40px;
+color: white;
+align-items: center;
+margin-right: 30px;
+/* width: 100px; */
+
+
+font-size: 25px;
+
+
+}
+
+
+nav {
+background-color: grey;
+width: 100%;
+height: 10vh;
+
+}
+.op:hover{
+background-color: black;
+width: 100px;
+height: 85px;
+align-items: center;
+justify-content: center;
+}
+.a{
+    color: white;
+    margin-left: 200px;
+    margin-top: 250px;
+    font-weight: lighter;
+    font-size: 250%;
+    
+}
+.b{
+    color: green;
+    margin-left: 200px;
+    font-weight: bolder;
+    font-size: 500%;
+
+
+}
+.c{
+
+    color: whitesmoke;
+    margin-left: 200px;
+    font-weight: bolder;
+
+}
+.d{
+    margin-top: 30px;
+    color: whitesmoke;
+    margin-left: 200px;
+    font-weight: bolder;
+    border: 1px solid white;
+    width: 160px;
+    height: 5vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    
+    
+
+
+}
+.e{
+
+    color: white;
+    margin-left: 900px;
+    margin-top: 100px;
+    font-weight: lighter;
+    font-size: 250%;
+
+}
+.f{
+
+    color: rgb(11, 189, 11);
+    margin-left: 900px;
+    font-weight: bolder;
+    font-size: 500%;
+    text-shadow: 2px 2px; 
+}
+.g{
+    color: whitesmoke;
+    margin-left: 900px;
+    font-weight: bolder;
+
+
+}
+.h{
+
+    margin-top: 30px;
+    color: whitesmoke;
+    margin-left: 900px;
+    border: 1px solid white;
+    width: 160px;
+    height: 5vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 25px;
+padding-bottom: 10px;
+}
+
+  h2{
+    margin-left: 10px;
+  }
+  @media only screen and (max-width:768px){
+  nav ul {
+
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0;
+    }
+    nav , ul, li{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 60%;
+        gap: 20px;
+       
+    }
+    ul, li, .op{
+        background-color: green;
+    
+    }
+    nav ul li :last-child{
+        margin-bottom: 0;
+    }
+   .a,.c, .b,.d{
+        width: 200px;
+    }
+
+
+
+  }
